@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(204, 43%, 93%);
+    font-size: 1em;
+} 
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+div.container {
+    width: 375px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.541);
+} 
+
+div > section {
+    padding: 1.5em;
+}
+section.card_community {
+    background-color: white;
+}
+
+section.card_community > article > h1 {
+    padding-bottom: 0.75em;
+}
+
+section.card_community > article > h2 {
+    padding-bottom: 1.2em;
+    font-size: 0.9em;
+    width: 200px;
+}
+
+section.card_community article > p {
+    width: 300px;
+    line-height: 1.5em;
+}
