@@ -15,12 +15,12 @@ main {
     height: 100vh;
     display: flex;
     justify-content: center;
-   
+    align-items: center;
     padding: 1em;
 }
 
 div.container {
-    width: 375px;
+    max-width: 375px;
     background-color: white;
     border-radius: 5px;
     overflow: hidden;
@@ -30,12 +30,13 @@ div.container {
 div > section {
     padding: 1.5em;
 }
-section.card_community {
-    background-color: white;
+
+section h1.title_card {
+    padding-bottom: 2.4em;
 }
 
-section.card_community > article > h1 {
-    padding-bottom: 0.75em;
+section.card_community {
+    background-color: white;
 }
 
 section.card_community > article > h2 {
@@ -47,4 +48,26 @@ section.card_community > article > h2 {
 section.card_community article > p {
     width: 300px;
     line-height: 1.5em;
+}
+
+section.card_monthly_Subscription {
+    background-color: #30AFAD;
+    color: #ffffff;
+}
+
+section.card_monthly_Subscription button.btn_sign {
+    background-color: hsl(71, 73%, 54%);
+    color: #ffffff;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0.8em;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.301);
+}
+
+section.card_monthly_Subscription button.btn_sign:hover {
+    background-color: hsla(71, 61%, 47%, 0.801);
+    
 }
