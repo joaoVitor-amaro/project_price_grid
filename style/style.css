@@ -2,57 +2,81 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body, html {
+html, body {
     height: 100vh;
-    width: 100vw;
-    background-color: hsl(204, 43%, 93%);
-    font-size: 1em;
+    background-color: hsl(204, 43%, 93%);   
 } 
 
 main {
-    height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 1em;
 }
 
 div.container {
     max-width: 375px;
     background-color: white;
-    border-radius: 5px;
-    overflow: hidden;
+    border-radius: 5px;  
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.541);
 } 
 
-div > section {
+div.container section {
     padding: 1.5em;
 }
 
-section h1.title_card {
-    padding-bottom: 2.4em;
+section.card_join_community > article > h1.title_card_comunity {
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-bottom: .7em;
+    color: hsla(179, 62%, 43%, 1);
 }
 
-section.card_community {
-    background-color: white;
+section.card_join_community > article > p.card_text-guarantee {
+    padding-bottom: 0.7em;
+    font-size: 1.1em;
+    color: hsla(71, 73%, 54%, 1);
 }
 
-section.card_community > article > h2 {
-    padding-bottom: 1.2em;
-    font-size: 0.9em;
-    width: 200px;
-}
-
-section.card_community article > p {
-    width: 300px;
+section.card_join_community article > p {
+    font-size: 1em;
     line-height: 1.5em;
+    color: hsla(218, 22%, 67%, 1); 
 }
 
 section.card_monthly_Subscription {
-    background-color: #30AFAD;
+    background-color: hsla(179, 62%, 43%, 1);
     color: #ffffff;
+}
+
+section.card_monthly_Subscription h2.title_card_Subscription {
+    font-size: 1.3em;
+    font-weight: 700;
+    padding-bottom: .7em;
+}
+
+section.card_monthly_Subscription div.container_plan_subscription {
+    display: flex; 
+    align-items: flex-end;
+    padding-bottom: .7em;
+}
+
+section.card_monthly_Subscription div.container_plan_subscription > p.card-valuePlan {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+section.card_monthly_Subscription div.container_plan_subscription > span.card_planMonth {
+    line-height: 36px;
+    margin-left: 0.4em;
+    opacity: 50%;
+}
+
+section.card_monthly_Subscription p.card__text_access {
+    font-size: 1em;
+    padding-bottom: 1.5em;
 }
 
 section.card_monthly_Subscription button.btn_sign {
@@ -70,4 +94,17 @@ section.card_monthly_Subscription button.btn_sign {
 section.card_monthly_Subscription button.btn_sign:hover {
     background-color: hsla(71, 61%, 47%, 0.801);
     
+}
+
+section.card_community_coding {
+    background-color: hsla(179, 48%, 52%, 1);
+    color: #ffffff;
+}
+
+section.card_community_coding h2.card_title_community_coding {
+    padding-bottom: .7em;
+}
+
+section.card_community_coding p {
+    opacity: 75%;
 }
