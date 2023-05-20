@@ -11,16 +11,14 @@ html, body {
 } 
 
 main {
-    display: flex;
-    justify-content: center;
     padding: 1em;
 }
 
 div.container {
-    max-width: 375px;
+    margin: auto;
+    width: 375px;
     background-color: white;
-    border-radius: 5px;
-    overflow: hidden;  
+    border-radius: 5px;  
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.541);
 } 
 
@@ -103,10 +101,32 @@ section.card_community_coding {
 }
 
 section.card_community_coding h2.card_title_community_coding {
-    font-size: 1.3em;
     padding-bottom: .7em;
 }
 
 section.card_community_coding p {
-    opacity: 70%;
+    opacity: 75%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.container {
+        width: 80vw;   
+    }
+    div.container_card {
+        display: flex;
+       
+    }
+
+    div.container_card > section.card_monthly_Subscription {
+        width: 50%;
+       
+    }
+    div.container_card > section.card_community_coding {
+        width: 50%;
+    }
 }

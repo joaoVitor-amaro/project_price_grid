@@ -1,0 +1,57 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    div.container {
+        max-width: 700px;   
+    }
+
+    div.container section {
+        padding: 2.3em;
+    }
+    section.card_join_community {
+        height: 210px;
+    }
+
+    section.card_join_community > article > h1.title_card_comunity {
+        font-size: 1.6em;
+    }
+
+    section.card_join_community > article > p.card_text-guarantee {
+        font-size: 1.2em;
+    }
+
+    section.card_join_community article > p {
+        font-size: 1.10em;
+    }
+
+    div.container_card {
+        display: flex;
+        height: 250px;
+    }
+
+    div.container_card > section.card_monthly_Subscription {
+        width: 50%; 
+    }
+
+    section.card_monthly_Subscription h2.title_card_Subscription {
+        font-size: 1.4em;
+    }
+
+    section.card_monthly_Subscription p.card__text_access {
+        font-size: 1.10em;
+        padding-bottom: 1.65em;
+    }
+
+    div.container_card > section.card_community_coding {
+        width: 50%;
+    }
+
+    section.card_community_coding h2.card_title_community_coding {
+        font-size: 1.4em;
+        padding-bottom: 1em;
+    }
+}
