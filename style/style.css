@@ -19,9 +19,9 @@ main {
 div.container {
     max-width: 375px;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;  
-    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.541);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.315);
 } 
 
 div.container section {
@@ -70,7 +70,7 @@ section.card_monthly_Subscription div.container_plan_subscription > p.card-value
 }
 
 section.card_monthly_Subscription div.container_plan_subscription > span.card_planMonth {
-    line-height: 36px;
+    line-height: 32px;
     margin-left: 0.4em;
     opacity: 50%;
 }
@@ -108,5 +108,5 @@ section.card_community_coding h2.card_title_community_coding {
 }
 
 section.card_community_coding p {
-    opacity: 70%;
+    opacity: 50%;
 }
