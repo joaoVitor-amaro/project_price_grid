@@ -21,7 +21,7 @@ div.container {
     background-color: white;
     border-radius: 10px;
     overflow: hidden;  
-    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.315);
+    box-shadow: 2px 1px 3px 2px rgba(0, 0, 0, 0.315);
 } 
 
 div.container section {
@@ -70,8 +70,8 @@ section.card_monthly_Subscription div.container_plan_subscription > p.card-value
 }
 
 section.card_monthly_Subscription div.container_plan_subscription > span.card_planMonth {
-    line-height: 32px;
-    margin-left: 0.4em;
+    line-height: 2em;
+    margin-left: 0.6em;
     opacity: 50%;
 }
 
@@ -87,9 +87,9 @@ section.card_monthly_Subscription button.btn_sign {
     font-weight: bold;
     font-size: 1em;
     padding: 0.8em;
-    border-radius: 5px;
+    border-radius: 0.3125em;
     border: none;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.301);
+    box-shadow: 0.0625em 0.0625em 0.1875em rgba(0, 0, 0, 0.404);
 }
 
 section.card_monthly_Subscription button.btn_sign:hover {
@@ -108,5 +108,5 @@ section.card_community_coding h2.card_title_community_coding {
 }
 
 section.card_community_coding p {
-    opacity: 50%;
+    opacity: 65%;
 }
