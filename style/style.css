@@ -90,6 +90,7 @@ section.card_monthly_Subscription button.btn_sign {
     border-radius: 0.3125em;
     border: none;
     box-shadow: 0.0625em 0.0625em 0.1875em rgba(0, 0, 0, 0.404);
+    transition: .2s ease-in;
 }
 
 section.card_monthly_Subscription button.btn_sign:hover {
